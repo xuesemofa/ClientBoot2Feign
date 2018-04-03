@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Class-Path: spring-boot-starter-jdbc-1.5.1.RELEASE.jar tomcat-jdbc-8.5
+ .11.jar spring-boot-starter-logging-1.5.1.RELEASE.jar spring-expressi
+ on-4.3.6.RELEASE.jar mysql-connector-java-5.1.39.jar spring-core-4.3.
+ 6.RELEASE.jar snakeyaml-1.17.jar spring-web-4.3.6.RELEASE.jar logback
+ -classic-1.1.9.jar slf4j-api-1.7.22.jar javassist-3.21.0-GA.jar sprin
+ g-context-4.3.6.RELEASE.jar spring-boot-starter-thymeleaf-1.5.1.RELEA
+ SE.jar spring-beans-4.3.6.RELEASE.jar tomcat-embed-websocket-8.5.11.j
+ ar spring-jdbc-4.3.6.RELEASE.jar log4j-over-slf4j-1.7.22.jar tomcat-j
+ uli-8.5.11.jar thymeleaf-spring4-2.1.5.RELEASE.jar jcl-over-slf4j-1.7
+ .22.jar spring-boot-1.5.1.RELEASE.jar mybatis-spring-boot-autoconfigu
+ re-1.2.0.jar jul-to-slf4j-1.7.22.jar jackson-annotations-2.8.0.jar sp
+ ring-boot-starter-web-1.5.1.RELEASE.jar classmate-1.3.3.jar spring-we
+ bmvc-4.3.6.RELEASE.jar hibernate-validator-5.3.4.Final.jar jackson-co
+ re-2.8.6.jar jboss-logging-3.3.0.Final.jar spring-boot-autoconfigure-1.5.1.RELEASE.jar mybatis-spring-boot-starter-1.2.0.jar ognl-3.0.8.jar logback-cor
+ e-1.1.9.jar spring-tx-4.3.6.RELEASE.jar jackson-databind-2.8.6.jar un
+ bescape-1.1.0.RELEASE.jar spring-boot-devtools-1.5.1.RELEASE.jar spri
+ ng-boot-starter-tomcat-1.5.1.RELEASE.jar validation-api-1.1.0.Final.j
+ ar mybatis-3.4.2.jar spring-aop-4.3.6.RELEASE.jar thymeleaf-2.1.5.REL
+ EASE.jar spring-boot-starter-1.5.1.RELEASE.jar groovy-2.4.7.jar thyme
+ leaf-layout-dialect-1.4.0.jar mybatis-spring-1.3.1.jar
+Main-Class: org.client.com.Application
+

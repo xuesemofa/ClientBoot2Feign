@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en"
+      xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="context-path" th:content="@{/}"/>
+
+    <title>首页</title>
+</head>
+<body>
+<table>
+    <tbody class="data">
+    <tr>
+        <td></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+<script th:inline="javascript">
+/*<![CDATA[*/
+   var basePath = /*[[${#httpServletRequest.getScheme() + "://"
+   + #httpServletRequest.getServerName() + ":"
+   + #httpServletRequest.getServerPort()
+   + #httpServletRequest.getContextPath()}]]*/;
+
+/*]]>*/
+
+</script>
+</html>

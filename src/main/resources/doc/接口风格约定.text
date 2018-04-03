@@ -1,0 +1,13 @@
+接口风格约定
+1.controller中主路径（主路径就是类上边设定的路径）为模块名称英文，如果太长适当缩写 例如：人员管理（"/people"）
+2.方法路径同类路径一般情况下一至（如有特殊情况如导出，则类路径+导出词），通过不同的请求方式区分不同的方法，但是方法名称
+为行为动词 例如：
+新增人员 路径: /people  请求方式:post  方法名称： add  参数： @RequestBody修饰
+修改人员 路径: /people  请求方式:put  方法名称： update  参数： @RequestBody修饰
+删除人员 路径: /people/id/{id}  请求方式:delete  方法名称： delById  参数： @PathVariable修饰
+查询人员（单个） 路径: /people/id/{id}  请求方式:get  方法名称： getById  参数： @PathVariable修饰
+查询人员（单个） 路径: /people/name/{name}[/{多条件}]  请求方式:get  方法名称： getByName  参数： @PathVariable修饰
+查询人员（多个） 路径: /people/find/id/{id}[/{多条件}]  请求方式:get  方法名称： findById  参数： @PathVariable修饰
+查询人员（多个） 路径: /people/find/name/{name}[/{多条件}]  请求方式:get  方法名称： findByName  参数： @PathVariable修饰
+查询人员（分页） 路径: /people/page/{pageNow}/{pageSize}[/{多条件}]  请求方式:get  方法名称： page  参数： @PathVariable修饰
+3.方法名尽量采用动词，路径名尽量采用名词

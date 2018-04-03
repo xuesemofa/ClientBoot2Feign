@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title></title>
+</head>
+<body>
+<div class="center" style="margin: 0;padding: 0;">${yzm}</div>
+</body>
+</html>

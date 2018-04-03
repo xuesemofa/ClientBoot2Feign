@@ -1,0 +1,52 @@
+﻿#端口
+server: 
+  port: 8998
+  tomcat: 
+    uri-encoding: UTF-8
+spring:
+  thymeleaf:
+    prefix: classpath:/templates
+    encoding: UTF-8
+#缓存
+    cache: false
+
+#邮箱
+  mail:
+    host: smtp.qq.com
+    username: 287656156@qq.com
+    password: capvszpolemibgdc
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+feign:
+  hystrix:
+#  开启熔断机制，默认是开启的
+    enabled: true
+  httpclient:
+    enabled: true
+#    设置超时时间，防止首次调用出现服务宕机bug
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+#          单位 ms
+            timeoutInMilliseconds: 1000*1000
+# 日志级别
+error: true
+logging:
+    file: CustomerClient.log
+    level: org.client.com:debug
+
+#分页每页默认条数设置
+page:
+  pageSize: 15
+  
+#全局上传下载读取文件路径设置
+filesPath: D:\\file\\
+#全局文件格式-多个用,(英文)隔开
+filesType: xlsx
