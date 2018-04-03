@@ -1,6 +1,6 @@
 ﻿#端口
 server: 
-  port: 8998
+  port: 9999
   tomcat: 
     uri-encoding: UTF-8
 spring:
